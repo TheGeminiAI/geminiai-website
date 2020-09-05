@@ -26,9 +26,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geminiai.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AskGeminiAI
 github_username:  TheGeminiAI
+instagram_username: gemini.ai
+
+# Non-default fields minima uses 
+# Author is the default for posts, Atom feed and is used in the footer.
+author: GeminiAI
+copyright: "GeminiAI"
+
+# title-logo is a new field that, when used, displays a logo
+# instead of custom text. Ideally, the image is 50px by 50px. 
+# title-logo: /images/title-logo.png
 
 # Build settings
-theme: minima
+# Removed minima theme since the files were copied to the repo.
+# theme: minima
 plugins:
   - jekyll-feed
 
